@@ -5,83 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lualex – Intuitive Energiearbeit</title>
   <style>
-    body { font-family: 'Segoe UI', sans-serif; max-width: 900px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #333; background: #f9f9f9; }
-    h1, h2, h3 { color: #2c5f2d; text-align: center; }
-    h1 { font-size: 2.8em; margin-bottom: 10px; }
-    h2 { font-size: 2.2em; margin: 60px 0 20px; border-bottom: 2px solid #d4e4d4; padding-bottom: 10px; }
-    section { margin-bottom: 50px; }
-    .hero { text-align: center; background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('wald.jpg') center/cover no-repeat; padding: 100px 20px; border-radius: 12px; margin-bottom: 60px; }
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.7; color: #333; background: #f8f9fa; }
+    h1, h2, h3 { color: #2c3e2f; text-align: center; }
+    h1 { font-size: 2.8em; margin: 40px 0 10px; }
+    h2 { font-size: 2.2em; margin: 60px 0 20px; border-bottom: 1px solid #d4e4d4; padding-bottom: 10px; }
+    h3 { font-size: 1.8em; margin: 40px 0 15px; }
+    nav { text-align: center; margin: 20px 0 40px; }
+    nav a { color: #4a7043; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero { background: linear-gradient(rgba(248,249,250,0.8), rgba(248,249,250,0.8)), url('images/wald.jpg') center/cover; padding: 120px 20px; border-radius: 8px; text-align: center; margin-bottom: 60px; }
     .hero p { font-size: 1.3em; max-width: 700px; margin: 20px auto; }
-    img { max-width: 100%; height: auto; border-radius: 8px; margin: 20px 0; display: block; }
-    .service { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 30px 0; }
-    .contact { text-align: center; font-size: 1.2em; }
+    .teaser { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin: 30px 0; }
+    img { max-width: 100%; height: auto; border-radius: 8px; margin: 20px auto; display: block; }
+    .service-link { color: #4a7043; font-weight: bold; text-decoration: none; }
+    .service-link:hover { text-decoration: underline; }
     footer { text-align: center; margin-top: 80px; color: #777; font-size: 0.9em; }
-    a { color: #2c5f2d; text-decoration: none; }
-    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="heilsteine.html">Heilsteine</a>
+    <a href="tensor.html">Tensorarbeit</a>
+    <a href="fernheilung.html">Fernheilung</a>
+    <a href="handauflegen.html">Handauflegen</a>
+    <a href="seminare.html">Seminare</a>
+    <a href="ueber-mich.html">Über mich</a>
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
 
-  <header>
+  <header class="hero">
     <h1>Lualex – Intuitive Energiearbeit</h1>
-    <p style="text-align:center; font-size:1.4em; color:#555;">Natürliche Heilung durch Kristalle, Tensoren & Energiefluss</p>
+    <p>Natürliche Heilung durch Kristalle, Tensoren, Energiefluss und Naturverbundenheit. Seit meiner Kindheit spüre ich diese Kräfte – ich begleite dich ehrlich und intuitiv in deine Balance.</p>
   </header>
 
-  <section class="hero">
-    <h2>Willkommen bei Lualex</h2>
-    <p>Von Kindesbeinen an fasziniert mich die unsichtbare Kraft der Natur. Ich begleite Menschen dabei, Blockaden zu lösen, Energie wieder fließen zu lassen und in ihre volle Kraft zu kommen – intuitiv, ehrlich und herzlich.</p>
+  <section>
+    <h2>Willkommen</h2>
+    <p>Die Natur trägt eine tiefe Weisheit in sich. Von klein auf fühle ich die lebendige Energie in Steinen, Wäldern und im Fluss des Lebens. In meiner Arbeit zu Hause oder draußen im Grünen löse ich Blockaden auf, harmonisiere Energien und unterstütze dich dabei, in deine volle Kraft zu kommen. Es geht nicht um starre Methoden, sondern um das, was wirklich stimmig und heilend wirkt. Viele Menschen spüren nach einer Sitzung mehr Leichtigkeit, Klarheit und innere Stärke – oft schon nach der ersten Begegnung.</p>
+    <img src="images/home-crystal.jpg" alt="Intuitive Energiearbeit zu Hause">
   </section>
 
-  <section id="services">
-    <h2>Meine Angebote</h2>
-
-    <div class="service">
-      <h3>Heilsteine & Kristallenergie</h3>
-      <p>Edelsteine sind lebendige Energieträger. Ich berate dich individuell, welche Steine zu dir passen, lege sie auf oder um dich herum, um Chakren zu harmonisieren, Emotionen zu balancieren und Vitalität zu stärken. Besonders stark: Amethyst für Ruhe, Rosenquarz für Selbstliebe, Bergkristall für Klarheit.</p>
+  <section>
+    <h2>Meine Angebote – Ein Überblick</h2>
+    <div class="teaser">
+      <h3><a href="heilsteine.html" class="service-link">Heilsteine & Kristallenergie</a></h3>
+      <p>Edelsteine als Träger uralter Kräfte: individuelle Beratung, Auflegen, Chakra-Harmonisierung. Amethyst beruhigt, Rosenquarz öffnet das Herz, Bergkristall klärt.</p>
+      <img src="images/rose-quartz.jpg" alt="Rosenquarz Heilstein">
     </div>
-
-    <div class="service">
-      <h3>Tensorarbeit & Tensorstäbe</h3>
-      <p>Tensorstäbe (Einhandruten) messen und lenken feinstoffliche Energien. Ich nutze sie, um Blockaden aufzuspüren, Räume zu reinigen, Aura zu stärken oder vor elektromagnetischer Strahlung zu schützen. Perfekt für schnelle Energie-Checks und Harmonisierung.</p>
+    <div class="teaser">
+      <h3><a href="tensor.html" class="service-link">Tensorarbeit & Tensorstäbe</a></h3>
+      <p>Feinstoffliche Energien lenken, Blockaden auflösen, Räume reinigen, Aura schützen. Schnell wirksam gegen Strahlung und Disharmonien.</p>
+      <img src="images/tensor-ring.jpg" alt="Tensor Ring">
     </div>
-
-    <div class="service">
-      <h3>Fernheilung</h3>
-      <p>Energie kennt keine Distanz. In einer Fernsitzung verbinde ich mich mit dir, löse karmische oder emotionale Muster auf und leite heilende Ströme. Du bleibst entspannt zu Hause – die Wirkung spürst du oft sofort oder in den Folgetagen.</p>
-    </div>
-
-    <div class="service">
-      <h3>Handauflegen & Direkte Energiearbeit</h3>
-      <p>Ich lege meine Hände auf oder halte sie über deinen Körper, um Energie direkt zu kanalisieren. Das löst Verspannungen, bringt Harmonie und unterstützt körperliche wie seelische Heilung. Reine Kanalarbeit – ich bin nur der Vermittler.</p>
-    </div>
-
-    <div class="service">
-      <h3>Seminare & Workshops</h3>
-      <p>Kleine Gruppen bei mir zu Hause oder im Wald: Lerne selbst mit Kristallen arbeiten, Tensoren nutzen oder deine Intuition stärken. Praktisch, intensiv, ohne Schnickschnack.</p>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>Über mich</h2>
-    <img src="alexander.jpg" alt="Alexander / Lualex">
-    <p>Seit ich denken kann, spüre ich Energien und die Kraft von Steinen, Pflanzen und dem Wald. Ich habe mich intensiv selbst geschult, viel ausprobiert und vertraue voll meiner Intuition. Keine starren Regeln – nur das, was wirklich hilft und stimmig ist. Ich bin 18, ehrlich und brenne für das, was ich tue.</p>
-    <div style="display:flex; justify-content:space-around; flex-wrap:wrap;">
-      <img src="wohnzimmer.jpg" alt="Behandlungsraum zu Hause" style="width:45%;">
-      <img src="wald.jpg" alt="Im Wald" style="width:45%;">
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Kontakt & Termin</h2>
-    <p>Schreib mir gerne – ich antworte schnell.</p>
-    <p><strong>Telefon/WhatsApp:</strong> [Deine Nummer, z.B. +49 123 456789]</p>
-    <p><strong>E-Mail:</strong> [deine@email.de]</p>
-    <p><strong>Adresse:</strong> [Deine Adresse, z.B. Musterstraße 12, 12345 Musterstadt – Hausbesuche nur nach Absprache]</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2026 Lualex – Intuitive Energiearbeit. Alle Rechte vorbehalten.</p>
-  </footer>
-
-</body>
-</html>
+    <div class="teaser">
+      <h3><a href="fernheilung.html" class="service-link">Fernheilung</a></h3>
+      <p>Energie kennt keine Grenzen. Aus der Ferne löse ich karmische Muster, leite Heilströme – du entspannst zu Hause, spürst die Wirkung tief.</p>
+      <img src="images/fern-energy.jpg" alt="Fern
