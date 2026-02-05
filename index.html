@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heilsteine – Dein Energie-Shop</title>
+<style>
+    * {margin:0;padding:0;box-sizing:border-box;}
+    body {font-family:'Segoe UI',sans-serif;background:linear-gradient(135deg,#ff9a9e 0%,#fad0c4 100%);color:#333;line-height:1.6;}
+    header {background:#6a0572;color:white;padding:20px;text-align:center;}
+    header h1 {font-size:3rem;margin-bottom:10px;}
+    .container {max-width:1200px;margin:0 auto;padding:20px;}
+    .products {display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin:40px 0;}
+    .card {background:white;border-radius:20px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.15);transition:0.3s;}
+    .card:hover {transform:translateY(-10px);box-shadow:0 20px 40px rgba(106,5,114,0.3);}
+    .card img {width:100%;height:250px;object-fit:cover;}
+    .card-body {padding:20px;text-align:center;}
+    .card h3 {color:#6a0572;margin-bottom:10px;}
+    .price {font-size:1.5rem;font-weight:bold;color:#ff6b6b;margin:10px 0;}
+    .btn {background:#6a0572;color:white;padding:12px 30px;border:none;border-radius:30px;font-size:1.1rem;cursor:pointer;transition:0.3s;}
+    .btn:hover {background:#9b59b6;}
+    footer {background:#6a0572;color:white;text-align:center;padding:30px;margin-top:60px;}
+    @media (max-width:768px) {
+        header h1 {font-size:2.5rem;}
+        .products {gap:15px;}
+        .card img {height:200px;}
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Heilsteine</h1>
+    <p>Deine Energiequelle – Kristalle für Körper, Geist & Seele</p>
+</header>
+
+<div class="container">
+    <section class="products">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="Amethyst">
+            <div class="card-body">
+                <h3>Amethyst</h3>
+                <p>Entspannung & innere Ruhe</p>
+                <div class="price">€ 19,90</div>
+                <button class="btn">Jetzt kaufen</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1617791160505-6f00504e3519?w=800" alt="Rosenquarz">
+            <div class="card-body">
+                <h3>Rosenquarz</h3>
+                <p>Liebe & Selbstliebe</p>
+                <div class="price">€ 16,90</div>
+                <button class="btn">Jetzt kaufen</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800" alt="Bergkristall">
+            <div class="card-body">
+                <h3>Bergkristall</h3>
+                <p>Klarheit & Energie</p>
+                <div class="price">€ 24,90</div>
+                <button class="btn">Jetzt kaufen</button>
+            </div>
+        </div>
+        <!-- Füge mehr Karten hinzu -->
+    </section>
+</div>
+
+<footer>
+    <p>© 2026 Heilsteine – Alle Rechte vorbehalten</p>
+    <p>Kontakt: alexander.dehn@email.de</p>
+</footer>
+
+</body>
+</html>
